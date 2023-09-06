@@ -28,3 +28,15 @@ Step1. Click create to create a new GKE\
 Step2. check the configration and create.\
 ![d5324609276101ad47c3a39a54f58b7](https://github.com/krisliuqz/isec6000-assignment1-task1/assets/54123573/9eb767b7-af1c-4653-a669-c68ebe9a4923)
 ## Part_2. Install and configure kubectl to manage your Kubernetes cluster
+Step 1.  navigate to the "Kubernetes Engine" > "Clusters" section and click the "Connect" button next to your cluster
+![32a479bc7bc85e0056ff3a25db93579](https://github.com/krisliuqz/isec6000-assignment1-task1/assets/54123573/509d58f8-7970-4890-99f3-c56554915447)
+Step 2. paste the command line into cloud console
+![578ef75d5fb697c7e52b2eac35f2ce7](https://github.com/krisliuqz/isec6000-assignment1-task1/assets/54123573/53a73b9f-2ce0-4d3d-b13b-07fee11c956a)
+![4ad82fd020abc9f0b08dca0fc9e5775](https://github.com/krisliuqz/isec6000-assignment1-task1/assets/54123573/19411e43-0583-46d8-be77-5a71ca315dca)
+# Task_3. Set up a private GitHub repository to store your project files
+Step 1. sign in to github (create one if you don't have it)
+![0fe420abe09fce5758600654b3cc6f7](https://github.com/krisliuqz/isec6000-assignment1-task1/assets/54123573/062606b9-d7b6-4ea1-87ea-2d3d76f2ffe5)
+Step 2. Click on the '+' icon at the top right corner of the GitHub dashboard and select "New repository."
+![b2d05ff74a20f06df66fa69b9a3e5cf](https://github.com/krisliuqz/isec6000-assignment1-task1/assets/54123573/8c061aa7-8eb8-4366-b446-13f571ce9de6)
+Step 3. Choose a meaningful repository name and set it to public and add a Readme file
+![517ae6e68590dd88e695423872e0c7b](https://github.com/krisliuqz/isec6000-assignment1-task1/assets/54123573/c6872ae5-6959-4890-909f-065a9df71633)
