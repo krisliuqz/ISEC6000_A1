@@ -12,13 +12,22 @@ First you will need to have a Google Cloud account, after you created an account
  ![113abd6474c4d7fc2bfac1cc4fa23fc](https://github.com/krisliuqz/isec6000-assignment1-task1/assets/54123573/1877119b-c253-4ef6-bf8a-1e78a9fdacee)
   Step 2. make sure you are on the right project\
 if not, using "gcloud config set project PROJECT_ID"\
+```shell
+gcloud config set project PROJECT_ID
+```
 ![f76848d645515c444a7d81ca5a39f9e](https://github.com/krisliuqz/isec6000-assignment1-task1/assets/54123573/256ec3a5-6d58-4f96-970f-ee7bec6e4d35)\
   Step 3. Select a Default Compute Zone\
 using "gcloud config set compute/zone us-central1-a ", alternatively you can choose whatever time zone you like\
+ ```shell
+gcloud config set compute/zone us-central1-a 
+```
 ![8e3666e2070523ea6e7b89f1da524e7](https://github.com/krisliuqz/isec6000-assignment1-task1/assets/54123573/ce9cb0fa-749f-4a33-8c27-9b82954e8661)\
   Step 4. create a GKE cluster by using "gcloud container clusters create-auto isec-6000-assignment1-task1 --location=us-central1 "\
+ ```shell
+gcloud container clusters create-auto isec-6000-assignment1-task1 --location=us-central1 
+```
 ![2dd611b24623601f391f8a87598188d](https://github.com/krisliuqz/isec6000-assignment1-task1/assets/54123573/be2e85af-f419-4358-8b21-e0e6a85c41d5)
-it may take up for few minutes\
+It may take up for few minutes\
 ![bf0d781365e023cd1d9582cbf09e765](https://github.com/krisliuqz/isec6000-assignment1-task1/assets/54123573/298f1661-5572-48b1-a5fb-d85878740a9b)
 Step 5. Get authentication credentials for the cluster\
 ![95e69160a335dca5f53191808178a9a](https://github.com/krisliuqz/isec6000-assignment1-task1/assets/54123573/72d38b5a-0f71-4bba-bae0-a048c9fcaadd)
